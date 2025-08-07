@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     docker = {
-      source  = "kreuzwerker/docker"
+      source  = "kreuzwerker/docker"   
       version = "~> 3.0.2"
     }
   }
@@ -21,10 +21,12 @@ resource "docker_container" "apache_container" {
     internal = 80
     external = 9090
   }
+//in this line,i have change the apache html value ,like your own websites
 volumes{
-    host_path      = "C:/Users/matha/OneDrive/Desktop/DEVOPS/stylish"
+    host_path      = "file path"
     container_path = "/usr/local/apache2/htdocs/"
   }
 }
+
 
 
