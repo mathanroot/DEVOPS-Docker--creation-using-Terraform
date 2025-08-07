@@ -3,7 +3,23 @@
 
 In this repository i write code for docker container creation using Terraform ..
 
-Enable Docker services
+
+commands,
+
+
+terraform init
+
+terraform plan
+
+terraform apply
+
+
+***Confirm docker service is running***
+
+
+Destroy the container using ,
+
+terraform destroy
 
 additionally
 In the docker i have run apache server ..
