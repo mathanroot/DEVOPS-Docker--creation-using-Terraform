@@ -21,12 +21,13 @@ resource "docker_container" "apache_container" {
     internal = 80
     external = 9090
   }
-//in this line,i have change the apache html value ,like your own websites
+//in this line,i have change the apache html value ,like your own websites ,in file path paste your folder path
 volumes{
     host_path      = "file path"
     container_path = "/usr/local/apache2/htdocs/"
   }
 }
+
 
 
 
