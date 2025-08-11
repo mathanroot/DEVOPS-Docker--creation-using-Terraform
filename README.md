@@ -6,20 +6,25 @@ In this repository i write code for docker container creation using Terraform ..
 
 commands,
 
-
+```bash
 terraform init
+```
 
+```bash
 terraform plan
-
+```
+```bash
 terraform apply
+```
 
 
 ***Confirm docker service is running***
 
 
 Destroy the container using ,
-
+```bash
 terraform destroy
+```
 
 additionally
 In the docker i have run apache server ..
